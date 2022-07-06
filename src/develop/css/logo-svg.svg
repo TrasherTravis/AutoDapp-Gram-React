@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 217 47" width="217" height="47">
+	<title>logo-svg</title>
+	<defs>
+		<image  width="72" height="47" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAAvCAMAAAB3wnyXAAAAAXNSR0IB2cksfwAAAitQTFRFAAAAOarjy+j/AQAASbb/W11fOjo6ptP0Tp3r0uj/QJ//eHyAn9//v9/0n9T0AAABVarqZWdp2u78AQABAAEAyOn/Ozs7QEBAgID/rbi/KqrURrn/3e/9Var/QL/qvMjSotr/bnF03e/9w+X6o8z/wuf/eHx/zdznu9/62uz9uN7/n9T/SktMbXFzvuP6z+r/zOf8nNH5y+f6QL//bXF0r9r6veP61uz/1+78vt/6xuf6Xbn/eH2AwtDcxuX60On7xej/eX2Bx+j/rbjBo9b1Y6rxeX2B2e39udz6t937t9/8o+D/sNz2XF5gkpifgP//v+T61uz7Zsz/y+n6wuf5rLi/nM34wuH7zun8zez5dLn/eX6B3u/9ndX4yuX70On8uOv/Var/d3t/zdvnmdL5weT/zen6rtz/5PL/d3t/2ev9ud/62u78v+T6o9b/QJ/frLbAvN37gL//zOf6vN7/SktM1+z9n9L50ev8y+b92O38gICAmdL0qtT0ls35wuX7mM/4xuP4vuP/0ez6mdv4n9X0m9P5rNv5nNX/pt7/zu3/yOP5k9j1JLb/Y2Vn1uz71e3/vOT4Kqr/Wlxdy+j9aGxtmdnyOar/lJyh0Oz6mczyVar/WlxdzOj6zOn9yej3xOX/xOT9otH/1+77jMzyyuj6ks7zgL/f2e//weD/0O37w+H4IL//a29xs9n/Y2ZnTU5Pt9/3ttvzipGVM7P/bHByqtvzuOP/ns7z5sD/lgAAALl0Uk5TAAkiAA7r/xcNIgjeGBgYAAznWgAAF/74ApQGC28DDIwp4oAyGRXdhThuPRj1yjclVSw2COEwNkRNNzYL3lQxRxbgN2MZEuFxMzxZGR3spAIwRQVeKpMkO10pC+B9JDpdGQndgy1CZxYT3HM3S2cZCJNECGkX9GwtTnBVAi0YLjslJDc3IxguKyQXKi4aB+NEYSYG6XDtFAnJNhQG6DdpISdfFngUbxUIXiFHIgjdFOT1IBXQCt8VEhX/iptYAAACZklEQVR4nK2WZ0PUQBCGF09GVBRUUPQ8sGFD7EqxIjZsFBti74INULH3gr2AYFdQVOy9/DyzyeykeCSZHO+Hu53JzJM3ye4mQkRVXBchQtEPsdQ1Hrp1AkYkgKbusXN69JQgSIyV0yseDPX+71ASh5PcBznQV4/76b8pbD+p/RVnQBqmQmiF54c4AwexTVgUJs7giCXNnlLpCgMZyBkSaBbEDVWcYcgZDjBC/vPudeZIxRkVMS5ntAzYczxMnDHoZ6wRZvE4qeMUJxs541Vigp9+NTnS6XnBRBmniEmUmMzwM2UqmJomM9MpzGFwksGm3DSRR0E+gzNjph0Es2bTcA6DM7cAOtQ8rCmc781ZsFB1LVrs5BRhzRKApV6cZctV14piUWLnlBolZStlsMrDD3FWy/mzxspZizXlRrjOjVOxXnVtiOhLaqPJ2YQ1m1Viiwto6zYs2o7zeYcJ2mlkdlFit5ulPZV6TRVy9lovbZ9cuvspPODGEeKgXBzVGOSBTTWi9hAFiV6byeEjUId+joJDx46bHA+MpvCJk8bglJNj0WnhvuVa7Z6hrrPnnJzz3n5IF6jroghdsnMu+4Voxq5QV73MXLVyrjH8XKcuXO83TM5Nwdj/b93GrjvGG7b2LnHuMfxoamjUu9S+cV9hmpp5HCEePNTaHjk58Jieuu8X7pOn8AyHz4nzgutHKrMFB63EeRmEI6U/nFfEaQvK0fWaOG8CM7T7+badOO9i8vOeOB+4rfZvuo+fkPM5kA/LXGn4IjFfvwXi2PT9Rwf32f1zNMpq/PkLfrsW+JN23j9//drodP0DLXNZWZDKfCQAAAAASUVORK5CYII="/>
+		<image  width="7" height="2" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAACBAMAAABmsdtTAAAAAXNSR0IB2cksfwAAABVQTFRF////4vP9Var/AAAAnM343u/9AAEAH2U1LgAAAAd0Uk5TAAIAAAIBAAIzrnwAAAASSURBVHicY2BUNnZgCDIzNgAABpABgx1JCNIAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 29px;fill: #3a3a3a;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<use id="Layer" href="#img1" x="0" y="0"/>
+	<text id="AutoDApp" style="transform: matrix(1,0,0,1,56,30.8)" >
+		<tspan x="0" y="0" class="t0">A</tspan><tspan  y="0" class="t0">u</tspan><tspan  y="0" class="t0">t</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0">D</tspan><tspan  y="0" class="t0">A</tspan><tspan  y="0" class="t0">p</tspan><tspan  y="0" class="t0">p
+</tspan>
+	</text>
+	<text id="" style="transform: matrix(1,0,0,1,139,-13)" >
+	</text>
+	<use id="Layer copy" href="#img2" x="10" y="21"/>
+</svg>

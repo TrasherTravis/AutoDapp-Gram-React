@@ -390,7 +390,7 @@ class AutoDapp {
     }
 
     listenRemoveDependencies = () =>{
-        this.editor.on('component:remove', component => {
+        this.editor.on('component:remove',component => {
             let section = component.attributes.attributes.id;
             let hasDependency = sectionDependencies.filter(e=>e.name === section);
             if(hasDependency.length !== 0){
@@ -399,13 +399,20 @@ class AutoDapp {
             }
         });
     }
-
+    
     init() {
         this.editor = grapesjs.init(this.config);
+        this.editor.Panels.addButton([
+            {
+              id: "logo",
+              className: "logoBuilder",
+              attributes: { title: "AutoDApp" },
+            },
+          ])
         this.editor.Panels.addButton('options', buttons);
         this.modal = this.editor.Modal;
         this.codeImportModal();
-        this.editor.Panels.removeButton('options', 'export-template');
+        this.editor.Panels.removeButton('options', 'export-template', );
         this.editor.on('load', (editor) => {
 
             editor.Panels.getButton('views', 'open-blocks').set('active', true)
@@ -415,7 +422,6 @@ class AutoDapp {
                 }
                 ctg.set('open', false);
             });
-
 
             // ----------------------------------------
             // Load and show settings and style manager

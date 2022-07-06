@@ -16,3 +16,12 @@ section{
   }
 }
 
+.logoBuilder {
+  background-image: url('./develop/css/logo-svg.svg');
+  color: black;
+  width: 200px;
+    /* min-height: 25px; */
+    background-size: 200px 32px;
+    margin-left: 500px;
+
+} 
