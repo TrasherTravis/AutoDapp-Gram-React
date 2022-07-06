@@ -58,6 +58,7 @@ class AutoDapp {
                 storeHtml: 1,
                 storeCss: 1,
             }
+            
         }
 
         this.appendDependencies();
@@ -108,9 +109,9 @@ class AutoDapp {
                 this.msg.error('Please select a file');
                 return;
             }
-            const allowFileType = ['gram', 'txt'];
+            const allowFileType = ['txt'];
             if (!allowFileType.includes(fType)) {
-                this.msg.error('You can only import .gram or .txt extension');
+                this.msg.error('You can only import or .txt extension');
                 return;
             }
             let reader = new FileReader();
@@ -384,9 +385,7 @@ class AutoDapp {
                 let dependency = hasDependency[0].dependencies[0];
                 this.addDependency(dependency);
             }
-        });
-
-        
+        });  
     }
 
     listenRemoveDependencies = () =>{
@@ -402,19 +401,11 @@ class AutoDapp {
     
     init() {
         this.editor = grapesjs.init(this.config);
-        this.editor.Panels.addButton([
-            {
-              id: "logo",
-              className: "logoBuilder",
-              attributes: { title: "AutoDApp" },
-            },
-          ])
         this.editor.Panels.addButton('options', buttons);
         this.modal = this.editor.Modal;
         this.codeImportModal();
         this.editor.Panels.removeButton('options', 'export-template', );
         this.editor.on('load', (editor) => {
-
             editor.Panels.getButton('views', 'open-blocks').set('active', true)
             editor.BlockManager.getCategories().each((ctg) => {
                 if (ctg.attributes.id === 'Sections') {

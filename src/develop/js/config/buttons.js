@@ -49,7 +49,7 @@ export default [{
     className: 'fa fa-trash icon-blank',
     command: (editor, sender) => {
         if (sender) sender.set('active', false);
-        if (onclick="return confirm('Are you sure to clean the canvas?')") {
+        if (onclick=window.confirm('Are you sure to clean the canvas?')) {
             editor.runCommand('core:canvas-clear');
             setTimeout(function () {
                 localStorage.setItem('gjs-assets', '');

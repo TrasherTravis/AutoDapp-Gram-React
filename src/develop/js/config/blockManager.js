@@ -7,10 +7,9 @@ const bootstrapBasicBlocks = [
     id: 'shp',
     label: 'Circle',
     category: 'Shapes',
-    content: `<div class="shapes"><svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-    <title>image</title>
-    <circle id="Layer" class="s0" cx="50" cy="50" r="50"/>
-  </svg>
+    type: "text",
+    class: "fa shapes text-primary",
+    content: `<div class="shapes"><svg width="150px" height="150px" font-colour="Blue" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/></svg>
 </div>`,
     attributes: {
         class: 'fa',
@@ -27,7 +26,7 @@ const bootstrapBasicBlocks = [
       },
       content: `<nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand text-primary" href="#">G.</a>
+        <a class="navbar-brand text-primary" href="#">Logo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

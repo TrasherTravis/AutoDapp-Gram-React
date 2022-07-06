@@ -16,7 +16,7 @@ export default {
             id: 'clean-all',
             run: (editor, sender) => {
                 sender.set('active', false);
-                if (confirm('Are you sure to clean the canvas?')) {
+                if (window.confirm('Are you sure to clean the canvas?')) {
                     editor.runCommand('core:canvas-clear');
                 }
             }
