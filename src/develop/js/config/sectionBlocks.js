@@ -53,7 +53,7 @@ export default [
         <button class="btn btn-outline-primary"><span class="fas fa-book me-2"></span>Documentation</button>
         </div>
         <div class="hero-image p-4 bg-white shadow-sm rounded">
-          <img src="https://res.cloudinary.com/dpnea22ek/image/upload/c_scale,q_100,w_1400/v1627100771/gramateria.jpg" alt="Gramateria">
+          <img src="https://res.cloudinary.com/autodapp/image/upload/v1656664751/AutoDapp/Dapp_tbty4o.png" alt="AutoDapp">
         </div>
         <svg class="background-wave" width="1440" height="386" xmlns="http://www.w3.org/2000/svg"><g fill="#09F" fill-rule="nonzero" fill-opacity=".2"><path d="M0 87l26.7 10.7C53.3 108 107 130 160 124.3c53.3-5.3 107-37.3 160-64C373.3 34 427 12 480 12.3 533.3 12 587 34 640 55c53.3 21 107 43 160 21.3C853.3 55 907-9 960 1.7c53.3 10.3 107 96.3 160 122.6 53.3 26.7 107-5.3 160-26.6 53.3-21.7 107-31.7 133-37.4l27-5.3v128H0V87zM0 311l26.7-5.3C53.3 300 107 290 160 311c53.3 21 107 75 160 74.701C373.3 386 427 332 480 311c53.3-21 107-11 160 10.7C693.3 343 747 375 800 359c53.3-16 107-80 160-101.3 53.3-21.7 107 .3 160 21.3 53.3 21 107 43 160 42.7 53.3.3 107-21.7 133-32l27-10.7v-96H0v128z"/></g></svg>
       </section>
